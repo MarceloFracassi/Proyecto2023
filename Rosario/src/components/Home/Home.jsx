@@ -1,16 +1,15 @@
-import React from 'react'
-import { useState } from 'react'
-import NavBar from '../Navbar/NavBar'
-
+import React from "react";
+import { useState } from "react";
+import NavBar from "../Navbar/NavBar";
+import "./Home.css";
 const Home = () => {
-
   return (
+    <>
+      <header className="Header">
+        <NavBar />
+      </header>
+    </>
+  );
+};
 
-<div>
-<NavBar/>  
-<p>HOLAAAAAAAAAAAAAAAAAAAAAA</p>
-</div>
-)
-}
-
-export default Home
+export default Home;
